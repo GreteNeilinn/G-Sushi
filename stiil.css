@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 body{
     background-color: #fbeaea;
 }
 
 h1{
-    font-family: 'Brush Script MT';
+    font-family: 'Amatic SC', cursive;
     font-size: 2.1rem;
     line-height: 1.4;
     letter-spacing: 0.5rem;
