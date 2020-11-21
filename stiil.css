@@ -80,6 +80,7 @@ h1{
 .menüümenu ul li{
     list-style: none;
     margin: 0 20px;
-    color: #fad1d1;
+    color: #000000;
+    font-family: 'Trebuchet MS';
     cursor: pointer;
 }
