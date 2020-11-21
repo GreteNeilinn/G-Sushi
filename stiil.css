@@ -73,3 +73,13 @@ h1{
     height: 100%;
     background-color: #fbeaea;
 }
+.menüümenu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menüümenu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #fad1d1;
+    cursor: pointer;
+}
