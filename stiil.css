@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@use postcss-nested;
 
 body{
     background-color: #fbeaea;
@@ -73,14 +74,57 @@ h1{
     height: 100%;
     background-color: #fbeaea;
 }
-.menüümenu ul{
+.menüümenu ol{
     display: inline-flex;
     margin: 50px;
 }
-.menüümenu ul li{
+.menüümenu ol li{
     list-style: none;
-    margin: 0 20px;
+    margin: 0 40px;
     color: #000000;
-    font-family: 'Trebuchet MS';
+    font-family: 'Amatic SC';
+    font-size: large;
     cursor: pointer;
 }
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+    color: black;
+}
+* {
+    box-sizing: content-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+   .menüü{
+       padding-top: 15px;
+       padding-bottom: 15px;
+     font-family: 'Amatic SC';
+     font-size: medium;
+     background-color: rgb(255, 249, 250);
+     text-align: center;
+   }
+       .menu{
+           .tootegrupp {
+               text-align: center;
+               margin-left: auto;
+               margin-right: auto;
+            }
+               section{
+                   header{
+                       .toode{
+                           text-align:center;
+                        }
+                     }
+
+                 }
+             }
+
+         }
+     }
+
+
