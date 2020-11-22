@@ -74,11 +74,13 @@ h1{
     height: 100%;
     background-color: #fbeaea;
 }
-.menüümenu ol{
+.ülemineriba ol{
     display: inline-flex;
     margin: 50px;
+    width: 90%;
 }
-.menüümenu ol li{
+.ülemineriba ol li{
+    width: 90%;
     list-style: none;
     margin: 0 40px;
     color: #000000;
@@ -87,8 +89,8 @@ h1{
     cursor: pointer;
 }
 .logo img{
-    width: 30px;
-    margin-top: -7px;
+    width: 50px;
+    margin-top: -25px;
     margin-right: 48px;
 }
 .active{
@@ -99,6 +101,9 @@ h1{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.kollaaz img{
+    width: 90%;
 }
    .menüü{
        padding-top: 15px;
@@ -123,8 +128,39 @@ h1{
 
                  }
              }
+             h3{
+                text-align: right;   
+            }
 
          }
      }
 
+ .alumineriba{
+    background-color: #fbeaea;
+    display: inline-flex;
+    margin: 50px;
+    font-family: 'Amatic';
+    width: 90%;
+}      
 
+.alumineriba th{
+    background-color: #fbeaea;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: 'Amatic SC';
+    font-size: large;
+    cursor: text;
+    width: max-content;
+
+}
+.logoall img{
+    width: 20px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
