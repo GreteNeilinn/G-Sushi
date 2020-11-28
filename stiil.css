@@ -11,7 +11,7 @@ h1{
     line-height: 1.4;
     letter-spacing: 0.5rem;
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 50px;
 }
 
@@ -115,19 +115,23 @@ h1{
     padding-bottom: 15px;
     font-family: 'Amatic SC';
     font-size: medium;
-    background-color: rgb(255, 249, 250);
+    background-color: #000000;
+    color: #ffff;
     text-align: center;
 }
 .menu{
+    color: white;
     .tootegrupp {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 90px;
+     
     }
     section{
         header{
             .toode{
+                
                 text-align:center;
             }
         }
@@ -137,9 +141,6 @@ h1{
         text-align: right; 
         padding-bottom: 60px;  
         }
-            
-            
-            
     }
 }
 .aluminepilt img{
