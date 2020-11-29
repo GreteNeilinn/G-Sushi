@@ -23,29 +23,30 @@ h1{
 }
 .ülemineriba  ol{
     display: inline-flex;
-    margin: 50px;
     width: 90%;
     padding: 30px;
-    position: relative;
-    list-style: none;
-    margin: 0 40px;
     color: #000000;
     font-family: 'Amatic SC';
-    cursor: pointer;
 }
+<<<<<<< HEAD
 a{
     color: black;
+=======
+
+.ülemineriba li{
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
+>>>>>>> 3d2621db274333ab6fc1cd765cec2eda3f50728a
 }
+
 .logo img{
     width: 50px;
     margin-top: -25px;
     margin-right: 48px;
 }
-.active{
-    color: black;
-}
 * {
-    box-sizing: content-box;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
