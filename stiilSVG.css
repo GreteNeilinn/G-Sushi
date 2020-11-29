@@ -32,7 +32,6 @@ li {
     margin-right: 60px;
     list-style: none;
 	font-size: 20px;
-	color: #fbeaea;
 	cursor: pointer;
 	transition: all .2s linear;
 }
@@ -40,6 +39,11 @@ li {
 li:hover{
 	font-size: 25px;
 	margin-right: 50px;
+}
+
+a{
+	color: #fbeaea;
+	text-decoration: none;
 }
 
 .lehesuurus{
