@@ -28,17 +28,17 @@ h1{
     color: #000000;
     font-family: 'Amatic SC';
 }
-<<<<<<< HEAD
+
 a{
     color: black;
-=======
+}
 
 .ülemineriba li{
     text-decoration: none;
     margin-right: 20px;
     cursor: pointer;
     list-style: none;
->>>>>>> 3d2621db274333ab6fc1cd765cec2eda3f50728a
+
 }
 
 .logo img{
