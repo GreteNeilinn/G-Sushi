@@ -31,6 +31,10 @@ h1{
     color: #000000;
     font-family: 'Amatic SC';
     cursor: pointer;
+    text-decoration: none;
+}
+.ülemineriba ol li {
+    text-decoration: none;
 }
 .logo img{
     width: 50px;
