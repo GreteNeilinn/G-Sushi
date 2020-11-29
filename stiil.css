@@ -36,6 +36,9 @@ h1{
 .ülemineriba ol li {
     text-decoration: none;
 }
+a{
+    color: black;
+}
 .logo img{
     width: 50px;
     margin-top: -25px;
