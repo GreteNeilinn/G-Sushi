@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@use postcss-nested;
-
 body{
     background-color: #fbeaea;
 }
@@ -14,90 +12,34 @@ h1{
     color: white;
     margin-top: 50px;
 }
-
 .leht{
     position: relative;
-}
 
-.esilehe_tekst{
-    background-image: ;
-}
-
-.ümbris{
-    overflow: hidden;
-    height: 350px;
-    width: 350px;
-    margin: 0px auto;
-    border-radius: 5%;
-}
-
-@-webkit-keyframes slaidi_animatsioon{
-    0% {right:0px}
-    6% {right: 0px}
-    12% {right: 350px}
-    18% {right: 350px}
-    24% {right: 700px}
-    30% {right: 700px}
-    36% {right: 1050px}
-    42% {right: 1050px}
-    48% {right: 1400px}
-    54% {right: 1400px}
-    60% {right: 1050px}
-    66% {right: 1050px}
-    72% {right: 700px}
-    78% {right: 700px}
-    84% {right: 350px}
-    90% {right: 350px}
-    96% {right: 0px}
-    100% {right: 0px}
-}
-
-.slaidi_pildid{
-    width: 1750px;
-    height: 350px;
-    margin: 0px auto;
-    position: relative;
-    -webkit-animation-name: slaidi_animatsioon;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-}
-
-.pildi_konteiner{
-    height: 350px;
-    width: 350px;
-    position: relative;
-    float: left;
 }
 .menüüleht{
     width: 100%;
     height: 100%;
     background-color: #fbeaea;
 }
-.ülemineriba ol{
+.ülemineriba  ol{
     display: inline-flex;
     margin: 50px;
     width: 90%;
-}
-.ülemineriba ol li{
-    width: 90%;
+    padding: 30px;
+    position: relative;
     list-style: none;
     margin: 0 40px;
     color: #000000;
     font-family: 'Amatic SC';
-    font-size: large;
     cursor: pointer;
 }
-.ülemineriba ul li a{:link{
-    color: #000;
-    text-decoration: none;
-}
+.ülemineriba{
 }
 .logo img{
     width: 50px;
     margin-top: -25px;
     margin-right: 48px;
-}}
+}
 .active{
     color: black;
 }
@@ -115,37 +57,28 @@ h1{
     padding-bottom: 15px;
     font-family: 'Amatic SC';
     font-size: medium;
-    background-color: #000000;
+    background-color: #222;
     color: #ffff;
     text-align: center;
 }
 .menu{
     color: white;
-    .tootegrupp {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 90px;
-     
-    }
-    section{
-        header{
-            .toode{
-                
-                text-align:center;
-            }
-        }
-    }
-    h3{
-        margin-top: 40px;
-        text-align: right; 
-        padding-bottom: 60px;  
-        }
-    }
 }
+.tootegrupp{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.toode{
+    text-align:center;
+}
+h3{
+    margin-top: 40px;
+    text-align: right; 
+    padding-bottom: 60px;  
+}
+
 .aluminepilt img{
-    padding-top: 50px;
-    }   
+    padding-top: 50px; 
 }
 
 .alumineriba{
@@ -154,13 +87,14 @@ h1{
     margin: 50px;
     font-family: 'Amatic';
     width: 90%;
+
 }      
 
 .alumineriba th{
     background-color: #fbeaea;
     width: 90%;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     list-style: none;
     margin: 40px;
     margin-left: auto;
@@ -170,7 +104,7 @@ h1{
     font-size: large;
     cursor: text;
     width: max-content;
-
+    text-align: center;
 }
 .logoall img{
     width: 20px;
