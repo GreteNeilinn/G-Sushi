@@ -3,70 +3,248 @@
 body{
     background-color: #fbeaea;
 }
-
 h1{
     font-family: 'Amatic SC', cursive;
     font-size: 2.1rem;
     line-height: 1.4;
     letter-spacing: 0.5rem;
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 50px;
 }
-
 .leht{
     position: relative;
 }
-
-.esilehe_tekst{
-    background-image: ;
+.menüüleht{
+    width: 100%;
+    height: 100%;
+    background-color: #fbeaea;
 }
-
-.ümbris{
-    overflow: hidden;
-    height: 350px;
-    width: 350px;
-    margin: 0px auto;
-    border-radius: 5%;
-}
-
-@-webkit-keyframes slaidi_animatsioon{
-    0% {right:0px}
-    6% {right: 0px}
-    12% {right: 350px}
-    18% {right: 350px}
-    24% {right: 700px}
-    30% {right: 700px}
-    36% {right: 1050px}
-    42% {right: 1050px}
-    48% {right: 1400px}
-    54% {right: 1400px}
-    60% {right: 1050px}
-    66% {right: 1050px}
-    72% {right: 700px}
-    78% {right: 700px}
-    84% {right: 350px}
-    90% {right: 350px}
-    96% {right: 0px}
-    100% {right: 0px}
-}
-
-.slaidi_pildid{
-    width: 1750px;
-    height: 350px;
-    margin: 0px auto;
+.ülemineriba  ol{
+    display: inline-flex;
+    margin: 50px;
+    width: 90%;
+    padding: 30px;
     position: relative;
-    -webkit-animation-name: slaidi_animatsioon;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
+    list-style: none;
+    margin: 0 40px;
+    color: #000000;
+    font-family: 'Amatic SC';
+    cursor: pointer;
+    text-decoration: none;
 }
+.ülemineriba ol li {
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.logo img{
+    width: 50px;
+    margin-top: -25px;
+    margin-right: 48px;
+}
+.active{
+    color: black;
+}
+* {
+    box-sizing: content-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kollaaz img{
+    width: 90%;
+}
+.menüü{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Amatic SC';
+    font-size: medium;
+    background-color: #222;
+    color: #ffff;
+    text-align: center;
+}
+.menu{
+    color: white;
+}
+.tootegrupp{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.toode{
+    text-align:center;
+}
+h3{
+    margin-top: 40px;
+    text-align: right; 
+    padding-bottom: 60px;  
+}
+.alumineriba{
+    background-color: #fbeaea;
+    display: inline-flex;
+    margin: 50px;
+    font-family: 'Amatic';
+    width: 90%;
+}      
 
-.pildi_konteiner{
-    height: 350px;
-    width: 350px;
-    position: relative;
+.alumineriba th{
+    background-color: #fbeaea;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: 'Amatic SC';
+    font-size: large;
+    cursor: text;
+    width: max-content;
+    text-align: center;
+}
+.logoall img{
+    width: 20px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.row > .column {
+    padding: 0 8px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Create four equal columns that floats next to eachother */
+.column {
     float: left;
+
+    width: 25%;
+}
+  
+  /* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+  
+  /* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 1000px;
+}
+  
+  /* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  /* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+  /* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+  
+img.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+  
+img.hover-shadow {
+    transition: 0.3s;
+}
+  
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+=======
 }
 
 .menüüleht{
@@ -181,4 +359,5 @@ ol a:hover::before{
     width: 20px;
     margin-top: -7px;
     margin-right: 48px;
+
 }
