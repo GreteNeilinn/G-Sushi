@@ -128,13 +128,13 @@ h3{
     clear: both;
   }
   
-  /* Create four equal columns that floats next to eachother */
+  /* veerud üksteise kõrval */
   .column {
     float: left;
     width: 25%;
   }
   
-  /* The Modal (background) */
+  /* taustamodaal */
   .modal {
     display: none;
     position: fixed;
@@ -148,7 +148,7 @@ h3{
     background-color: black;
   }
   
-  /* Modal Content */
+  /* modaalisisu */
   .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -158,10 +158,10 @@ h3{
     max-width: 1000px;
   }
   
-  /* The Close Button */
+  /* sulgemise nupp */
   .close {
     color: white;
-    position: absolute;
+    position: center;
     top: 10px;
     right: 25px;
     font-size: 35px;
@@ -175,12 +175,12 @@ h3{
     cursor: pointer;
   }
   
-  /* Hide the slides by default */
+  /* esialgselt/vaikimisi pildid kinni */
   .mySlides {
     display: none;
   }
   
-  /* Next & previous buttons */
+  /* eelmine/järgmine nupud */
   .prev,
   .next {
     cursor: pointer;
@@ -198,7 +198,7 @@ h3{
     -webkit-user-select: none;
   }
   
-  /* Position the "next button" to the right */
+  /* nool edasi paremale ja tagasi vasakule */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -208,22 +208,22 @@ h3{
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+  /* hoveri peal taust natuke läbipaistev */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
+  /* piltide loend (1/3 jne) */
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
+    position: center;
     top: 0;
   }
   
-  /* Caption text */
+  /* tekstikonteiner, siin lihtsalt piltide vaheruum(tekstita) */
   .caption-container {
     text-align: center;
     background-color: black;
