@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-color: #fbeaea;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.leht{
+    position: relative;
+
+}
+.menüüleht{
+    width: 100%;
+    height: 100%;
+    background-color: #fbeaea;
+}
+.ülemineriba  ol{
+  position: center;
+  display: inline-flex;
+  width: 90%;
+  padding: 30px;
+  color: #000000;
+  font-family: 'Amatic SC';
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.ülemineriba li{
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
+    list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+li:hover{
+  font-size: 25px;
+  margin-right: 50px;
+  }
+  
+
+.logo img{
+    width: 50px;
+    margin-top: -25px;
+    margin-right: 48px;
+}
+* {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kollaaz img{
+    width: 90%;
+}
+.menüü{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Amatic SC';
+    font-size: medium;
+    background-color: #222;
+    color: #ffff;
+    text-align: center;
+}
+.menu{
+    color: white;
+}
+.tootegrupp{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.toode{
+    text-align:center;
+}
+h3{
+    margin-top: 40px;
+    text-align: right; 
+    padding-bottom: 60px;  
+}
+
+.aluminepilt img{
+    padding-top: 50px; 
+}
+
+.alumineriba{
+    background-color: #fbeaea;
+    display: inline-flex;
+    margin: 50px;
+    font-family: 'Amatic';
+    width: 90%;
+}      
+
+.alumineriba th{
+    background-color: #fbeaea;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: 'Amatic SC';
+    font-size: large;
+    cursor: text;
+    width: max-content;
+    text-align: center;
+}
+.logoall img{
+    width: 20px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
