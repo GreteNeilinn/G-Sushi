@@ -31,15 +31,26 @@ h1{
 
 a{
     color: black;
-    text-transform: uppercase;
+    text-decoration: none;
 }
+
 
 .ülemineriba li{
     text-decoration: none;
     margin-right: 20px;
     cursor: pointer;
     list-style: none;
+    list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .2s linear;
 }
+
+li:hover{
+  font-size: 25px;
+  margin-right: 50px;
+  }
+  
 
 .logo img{
     width: 50px;
