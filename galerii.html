@@ -1,9 +1,11 @@
 <html>
-<head>
+    <head>
+
      <title> GALERII </title>
      <link rel="stylesheet" href="stiilgalerii.css">
+     <link rel="javascript" href="galerii.js">
 
-</head>
+    </head>
 <body>
     <div class="menüüleht">
         <div class="ülemineriba">
@@ -385,53 +387,7 @@
                 <div class="column">
                     <img class="demo" src="maikepildid/tagasiside8.jpg" onclick="currentSlide(29)" >
                 </div>
-
-
-
-                <script>
-                    // Ava vaade
-                    function openModal() {
-                      document.getElementById("myModal").style.display = "block";
-                    }
-                
-                    // Sulge vaade
-                    function closeModal() {
-                      document.getElementById("myModal").style.display = "none";
-                    }
-                
-                    var slideIndex = 1;
-                    showSlides(slideIndex);
-                
-                    // Eelmine/järgmine nupud
-                    function plusSlides(n) {
-                      showSlides(slideIndex += n);
-                    }
-                
-                    // Thumbnail pildi nupud
-                    function currentSlide(n) {
-                      showSlides(slideIndex = n);
-                    }
-                
-                    function showSlides(n) {
-                      var i;
-                      var slides = document.getElementsByClassName("mySlides");
-                      var dots = document.getElementsByClassName("demo");
-                      var captionText = document.getElementById("caption");
-                      if (n > slides.length) {slideIndex = 1}
-                      if (n < 1) {slideIndex = slides.length}
-                      for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                      }
-                      for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                      }
-                      slides[slideIndex-1].style.display = "block";
-                      dots[slideIndex-1].className += " active";
-                    }
-                </script>
-
             </div>
-
         </div>
 
         <div>
@@ -451,4 +407,7 @@
         </table>
     </div>
 
+    <script> src="galerii.js" </script>
+
 </body>
+</html>
