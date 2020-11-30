@@ -1,0 +1,222 @@
+/*Fondi importimine*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+/* Kogu lehekülg */
+body{
+    background: #222;
+	margin: 0;
+	padding: 0;
+	font-family: 'Amatic SC', cursive;
+}
+
+/* Logo */
+.logo{
+    left: 2%;
+    top: 3vh;
+    position: absolute;
+    height: 30px;
+}
+
+/* Ülemine menüüriba */
+.navigeerimine{
+	width: 100%;
+    opacity: 100%;
+	position: absolute;
+	top: 3vh;
+}
+
+/* Menüürea list */
+ol{
+    float: right;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+
+/* Menüürea listi üksik element */
+li {
+    margin-right: 60px;
+    list-style: none;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all .2s linear; /* lisab elemendile animatsiooni/muutuse */
+}
+
+/* kui hiir on listi elemendi peal, siis tekib teksti paisumise efekt */
+li:hover{
+	font-size: 25px;
+	margin-right: 50px; /* et teised elemendid ei nihkuks koos vastava elemendiga,
+	mille peal on hiir */
+}
+
+/* Listi elementide värvi override-mine,
+sest link annab tekstile lilla värvuse */
+a{
+	color: #fbeaea;
+	text-decoration: none;
+}
+
+/* Tausta, kus sushid liiguvad, positsioon */
+.liikuv{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;   /* ei näita elemente kui ekraanist väljaspool */
+}
+
+/* Sushi/elementide positsioon ja animatsiooni lisamine */
+.liikuv svg{
+	position: absolute;
+	display: block;
+	animation: lendlev 25s linear infinite;
+	bottom: -150px; 	/* Et elemendid jääksid alguses ekraanist välja */
+}
+
+/* Sushi 1 */
+.liikuv svg:nth-child(1){
+	left: 25%;
+	height: 80px;
+	animation-delay: 0s;
+}
+/* Sushi 2 */
+.liikuv svg:nth-child(2){
+	left: 10%;
+	height: 20px;
+	animation-delay: 2s;
+	animation-duration: 12s;
+}
+/* Sushi 3 */
+.liikuv svg:nth-child(3){
+	left: 70%;
+	height: 50px;
+	animation-delay: 4s;
+}
+/* Sushi 4 */
+.liikuv svg:nth-child(4){
+	left: 40%;
+	height: 60px;
+	animation-delay: 0s;
+	animation-duration: 18s;
+}
+/* Sushi 5 */
+.liikuv svg:nth-child(5){
+	left: 65%;
+	height: 45px;
+	animation-delay: 0s;
+}
+/* Sushi 6 */
+.liikuv svg:nth-child(6){
+	left: 75%;
+	height: 110px;
+	animation-delay: 3s;
+}
+/* Sushi 7 */
+.liikuv svg:nth-child(7){
+	left: 70%;
+	height: 30px;
+	animation-delay: 9s;
+	animation-duration: 45s;
+}
+/* Sushi 8 */
+.liikuv svg:nth-child(8){
+	left: 35%;
+	height: 70px;
+	animation-delay: 7s;
+}
+/* Sushi 9 */
+.liikuv svg:nth-child(9){
+	left: 20%;
+	height: 45px;
+	animation-delay: 4s;
+	animation-duration: 35s;
+}
+
+/* Sushi piltide animatsioon */
+@keyframes lendlev{
+	/* alguses */
+	0%{
+		transform: translateY(0)rotate(0deg);
+		opacity: 1;
+	}
+	/* lõpus */
+	100%{
+		transform: translateY(-1000px)rotate(720deg); /* Sushi teeb kaks ringi ümber enda 
+		ja liigub üles ekraanist välja */
+		opacity: 0;
+	}
+}
+
+/* Pealkirja positsioon ja animatsiooni lisamine */
+#pealkiri{
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    animation: sisu 1s ease forwards 4s;
+}
+
+/* Siin kasutasime javascripti, et saada tähe mõõtmeid */
+/* esimene täht (G) */
+#pealkiri path:nth-child(1){
+	stroke-dasharray: 544px; /* Tähe outline-i pikkus ilma vahedeta */
+	/* stroke-dasharray teeb - - - */
+	stroke-dashoffset: 544px; /* Liigutab dash-i 544px vasakule, nii et tähe outline-i pole näha */
+	/* Stroke-dasharray määrab kust algab dash array */
+    animation: pealkiri-anim 2s ease forwards;
+}
+/* sidekriips */
+#pealkiri path:nth-child(2){
+    stroke-dasharray: 98px;
+    stroke-dashoffset: 98px;
+    animation: pealkiri-anim 2s ease forwards 0.4s; 
+}
+/* teine täht (S) */
+#pealkiri path:nth-child(3){
+    stroke-dasharray: 412px;
+    stroke-dashoffset: 412px;
+    animation: pealkiri-anim 2s ease forwards 0.8s; 
+}
+/* kolmas täht (U) */
+#pealkiri path:nth-child(4){
+    stroke-dasharray: 656px;
+    stroke-dashoffset: 656px;
+    animation: pealkiri-anim 2s ease forwards 1.2s; 
+}
+/* neljas täht (S) */
+#pealkiri path:nth-child(5){
+    stroke-dasharray: 412px;
+    stroke-dashoffset: 412px;
+    animation: pealkiri-anim 2s ease forwards 1.6s; 
+}
+/* viies täht (H) */
+#pealkiri path:nth-child(6){
+    stroke-dasharray: 660px;
+    stroke-dashoffset: 660px;
+    animation: pealkiri-anim 2s ease forwards 2.0s; 
+}
+/* kuues täht (I) */
+#pealkiri path:nth-child(7){
+    stroke-dasharray: 392px;
+    stroke-dashoffset: 392px;
+    animation: pealkiri-anim 2s ease forwards 2.4s; 
+}
+
+/* Pealkirja outline-i animatsioon */
+@keyframes pealkiri-anim{
+    to{
+        stroke-dashoffset: 0; /* dashoffset liigub üha paremale, muutes outline-i nähtavaks */
+    }
+}
+
+/* Pealkirja sisu animatsioon */
+@keyframes sisu{
+    from{
+		fill: transparent;  /* Et animatsioon toimuks sujuvamalt, täpsustame,
+		et pealkiri on alguses läbipaistev*/
+    }
+   to{
+       fill: #fbeaea; /* Teksti sisu värvus */
+   } 
+}

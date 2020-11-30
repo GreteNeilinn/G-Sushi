@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-color: #fbeaea;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.kontakt{
+    width: 100%;
+    height: 100%;
+    background-color: #fbeaea;
+}
+.ülemineriba ol{
+    display: inline-flex;
+    margin: 50px;
+    width: 90%;
+    padding: 30px;
+    position: relative;
+    list-style: none;
+    margin: 0 40px;
+    color: #000000;
+    font-family: 'Amatic SC';
+    cursor: pointer;
+    text-decoration: none;
+}
+.ülemineriba ol li {
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+.logo img{
+    width: 50px;
+    margin-top: -25px;
+    margin-right: 48px;
+}
+.active{
+    color: black;
+}
+* {
+    box-sizing: content-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontak{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Amatic SC';
+    font-size: medium;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.kont{
+    color: white;
+}
+.pealk{
+    text-align: center;
+    color: white;
+}
+
+.sisu{
+    text-align:center;
+    color: white;
+}
+
+
+.alumineriba{
+    background-color: #fbeaea;
+    display: inline-flex;
+    margin: 50px;
+    font-family: 'Amatic';
+    width: 90%;
+}      
+
+.alumineriba th{
+    background-color: #fbeaea;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: 'Amatic SC';
+    font-size: large;
+    cursor: text;
+    width: max-content;
+    text-align: center;
+}
+
+.logoall img{
+    width: 20px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+  }
