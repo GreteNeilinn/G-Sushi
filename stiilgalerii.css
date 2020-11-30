@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-color: #fbeaea;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.leht{
+    position: relative;
+
+}
+.menüüleht{
+  width: 100%;
+  height: 100%;
+  background-color: #fbeaea;
+}
+.ülemineriba  ol{
+  display: inline-flex;
+  position: center;
+  width: 90%;
+  padding: 30px;
+  color: #000000;
+  font-family: 'Amatic SC';
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.ülemineriba li{
+  text-decoration: none;
+  margin-right: 20px;
+  cursor: pointer;
+  list-style: none;
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+li:hover{
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+.logo img{
+  width: 50px;
+  margin-top: -25px;
+  margin-right: 48px;
+}
+* {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kollaaz img{
+  width: 90%;
+}
+.menüü{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Amatic SC';
+  font-size: medium;
+  background-color: #222;
+  color: #ffff;
+  text-align: center;
+}
+.menu{
+  color: white;
+}
+.tootegrupp{
+  text-align: center;
+  margin-bottom: 90px;
+}
+.toode{
+  text-align:center;
+}
+h3{
+  margin-top: 40px;
+  text-align: right; 
+  padding-bottom: 60px;  
+}
+
+.aluminepilt img{
+  padding-top: 50px; 
+}
+
+.alumineriba{
+  background-color: #fbeaea;
+  display: inline-flex;
+  margin: 50px;
+  font-family: 'Amatic';
+  width: 90%;
+}      
+
+.alumineriba th{
+    background-color: #fbeaea;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: 'Amatic SC';
+    font-size: large;
+    cursor: text;
+    width: max-content;
+    text-align: center;
+}
+.logoall img{
+    width: 20px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* veerud üksteise kõrval */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* taustamodaal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* modaalisisu */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  /* sulgemise nupp */
+  .close {
+    color: white;
+    position: center;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* esialgselt/vaikimisi pildid kinni */
+  .mySlides {
+    display: none;
+  }
+  
+  /* eelmine/järgmine nupud */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* nool edasi paremale ja tagasi vasakule */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* hoveri peal taust natuke läbipaistev */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* piltide loend (1/3 jne) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: center;
+    top: 0;
+  }
+  
+  /* tekstikonteiner, siin lihtsalt piltide vaheruum(tekstita) */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

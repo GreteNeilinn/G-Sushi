@@ -1,0 +1,417 @@
+<html>
+    <head>
+
+     <title> GALERII </title>
+
+     <link rel="stylesheet" href="stiilgalerii.css">
+     <link rel="javascript" href="galerii.js">
+
+
+    </head>
+<body>
+    <div class="menüüleht">
+        <div class="ülemineriba">
+            <ol>
+
+                <li class="logo"><a><img src="pildid/plainlogo.png"></a></li>
+
+                <li><a href="esilehtSVG.html" style="text-decoration:none">AVALEHT</a></li>
+                <li><a href="g_sushi_menu.html" style="text-decoration:none">MENÜÜ</a></li>
+                <li class="active"><a href="galerii.html" style="text-decoration:none">GALERII</a></li>
+                <li><a href="kontakt.html" style="text-decoration:none">KONTAKT</a></li>
+            </ol>
+        </div>
+        <div class="menüü"; style="color: white;">
+            <h1>GALERII</h1>
+            <p>Klikka pildil, et näha suuremalt.</p>
+
+
+            <!-- Pildid, mullega saab suuremat vaadet avada -->
+            <div class="row">
+                <div class="column">
+                    <img src="maikepildid/bowl1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/bowl2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/bowl3_kreveti.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/bowl4_lõhe.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/bowls.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/interjöör1.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/interjöör2.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/kokteil1.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/kokteil2.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/kokteil3.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/kokteil4.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/rull1.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/rull2.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/rull3.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/rull4.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/rull5.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/set1.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/set2.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/set3.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/set4.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tellimused1.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside1.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside2.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside3.jpg" onclick="openModal();currentSlide(24)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside4.jpg" onclick="openModal();currentSlide(25)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside5.jpg" onclick="openModal();currentSlide(26)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside6.jpg" onclick="openModal();currentSlide(27)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside7.jpg" onclick="openModal();currentSlide(28)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="maikepildid/tagasiside8.jpg" onclick="openModal();currentSlide(29)" class="hover-shadow">
+                </div>
+            </div>
+  
+                <!-- avavaade -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 29</div>
+                    <img src="maikepildid/bowl1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 29</div>
+                    <img src="maikepildid/bowl2.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 29</div>
+                    <img src="maikepildid/bowl3_kreveti.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 29</div>
+                    <img src="maikepildid/bowl4_lõhe.jpg" style="width:30%">
+                </div>
+  
+                <div class="mySlides">
+                    <div class="numbertext">5 / 29</div>
+                    <img src="maikepildid/bowls.jpg" style="width:30%">
+                </div>
+  
+                <div class="mySlides">
+                    <div class="numbertext">6 / 29</div>
+                    <img src="maikepildid/interjöör1.jpg" style="width:30%">
+                </div>
+  
+                <div class="mySlides">
+                    <div class="numbertext">7 / 29</div>
+                    <img src="maikepildid/interjöör2.jpg" style="width:30%">
+                </div>
+  
+                <div class="mySlides">
+                    <div class="numbertext">8 / 29</div>
+                    <img src="maikepildid/kokteil1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 29</div>
+                    <img src="maikepildid/kokteil2.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 29</div>
+                    <img src="maikepildid/kokteil3.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 29</div>
+                    <img src="maikepildid/kokteil4.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 29</div>
+                    <img src="maikepildid/rull1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">13 / 29</div>
+                    <img src="maikepildid/rull2.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">14 / 29</div>
+                    <img src="maikepildid/rull3.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">15 / 29</div>
+                    <img src="maikepildid/rull4.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">16 / 29</div>
+                    <img src="maikepildid/rull5.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">17 / 29</div>
+                    <img src="maikepildid/set1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">18 / 29</div>
+                    <img src="maikepildid/set2.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">19 / 29</div>
+                    <img src="maikepildid/set3.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">20 / 29</div>
+                    <img src="maikepildid/set4.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">21 / 29</div>
+                    <img src="maikepildid/tellimused1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">22 / 29</div>
+                    <img src="maikepildid/tagasiside1.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">23 / 29</div>
+                    <img src="maikepildid/tagasiside2.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">24 / 29</div>
+                    <img src="maikepildid/tagasiside3.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">25 / 29</div>
+                    <img src="maikepildid/tagasiside4.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">26 / 29</div>
+                    <img src="maikepildid/tagasiside5.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">27 / 29</div>
+                    <img src="maikepildid/tagasiside6.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">28 / 29</div>
+                    <img src="maikepildid/tagasiside7.jpg" style="width:30%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">29 / 29</div>
+                    <img src="maikepildid/tagasiside8.jpg" style="width:30%">
+                </div>
+
+
+
+  
+                <!-- Järgmine/eelmine nupud -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  
+                <!-- Thumbnail pildi nupud -->
+                <div class="column">
+                    <img class="demo" src="maikepildid/bowl1.jpg" onclick="currentSlide(1)">
+                </div>
+  
+                <div class="column">
+                    <img class="demo" src="maikepildid/bowl2.jpg" onclick="currentSlide(2)" >
+                </div>
+  
+                <div class="column">
+                    <img class="demo" src="maikepildid/bowl3_kreveti.jpg" onclick="currentSlide(3)" >
+                </div>
+  
+                <div class="column">
+                    <img class="demo" src="maikepildid/bowl4_lõhe.jpg" onclick="currentSlide(4)">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/bowls.jpg" onclick="currentSlide(5)">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/interjöör1.jpg" onclick="currentSlide(6)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/interjöör2.jpg" onclick="currentSlide(7)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/kokteil1.jpg" onclick="currentSlide(8)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/kokteil2.jpg" onclick="currentSlide(9)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/kokteil3.jpg" onclick="currentSlide(10)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/kokteil4.jpg" onclick="currentSlide(11)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/rull1.jpg" onclick="currentSlide(12)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/rull2.jpg" onclick="currentSlide(13)">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/rull3.jpg" onclick="currentSlide(14)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/rull4.jpg" onclick="currentSlide(15)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/rull5.jpg" onclick="currentSlide(16)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/set1.jpg" onclick="currentSlide(17)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/set2.jpg" onclick="currentSlide(18)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/set3.jpg" onclick="currentSlide(19)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/set4.jpg" onclick="currentSlide(20)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tellimused1.jpg" onclick="currentSlide(21)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside1.jpg" onclick="currentSlide(22)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside2.jpg" onclick="currentSlide(23)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside3.jpg" onclick="currentSlide(24)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside4.jpg" onclick="currentSlide(25)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside5.jpg" onclick="currentSlide(26)">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside6.jpg" onclick="currentSlide(27)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside7.jpg" onclick="currentSlide(28)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="maikepildid/tagasiside8.jpg" onclick="currentSlide(29)" >
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>Värskendavaid kokteile pakume suveperioodil.</p> 
+         </div>
+
+    </div>
+        
+    <div class="alumineriba">
+        <table class="alumineriba">
+            <tr>
+
+                <th class="logoall"><img src="pildid/plainlogo.png"></th>
+
+                <th>TELLIMINE tel: +372 5648 3673</th>
+            </tr>            
+        </table>
+    </div>
+
+    <script src="galerii.js">  </script>
+
+</body>
+</html>
