@@ -22,11 +22,12 @@ h1{
     background-color: #fbeaea;
 }
 .ülemineriba  ol{
-    display: inline-flex;
-    width: 90%;
-    padding: 30px;
-    color: #000000;
-    font-family: 'Amatic SC';
+  position: center;
+  display: inline-flex;
+  width: 90%;
+  padding: 30px;
+  color: #000000;
+  font-family: 'Amatic SC';
 }
 
 a{

@@ -23,6 +23,7 @@ h1{
 }
 .ülemineriba  ol{
   display: inline-flex;
+  position: center;
   width: 90%;
   padding: 30px;
   color: #000000;
