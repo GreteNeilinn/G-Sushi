@@ -13,41 +13,47 @@ h1{
     margin-top: 50px;
 }
 
-
 .kontakt{
     width: 100%;
     height: 100%;
     background-color: #fbeaea;
 }
 .ülemineriba ol{
+    position: center;
     display: inline-flex;
-    margin: 50px;
     width: 90%;
     padding: 30px;
-    position: relative;
-    list-style: none;
-    margin: 0 40px;
     color: #000000;
     font-family: 'Amatic SC';
-    cursor: pointer;
-    text-decoration: none;
 }
-.ülemineriba ol li {
-    text-decoration: none;
-}
-
 a{
     color: black;
+    text-decoration: none;
 }
-
+.ülemineriba li {
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
+    list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+li:hover{
+    font-size: 25px;
+    margin-right: 50px;
+}
 .logo img{
     width: 50px;
     margin-top: -25px;
     margin-right: 48px;
 }
+
 .active{
     color: black;
 }
+
 * {
     box-sizing: content-box;
     width: 90%;
